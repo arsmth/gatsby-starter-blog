@@ -1,4 +1,27 @@
 ---
 label: News post
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    max: '140'
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+  default: now
+- name: sections
+  type: blocks
+  template_types: []
+  config:
+    min: '1'
+    max: 
+  label: Blocks

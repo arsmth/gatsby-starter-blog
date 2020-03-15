@@ -9,6 +9,8 @@ sections:
   label: News posts
   create: all
   match: "**/*"
+  templates:
+  - news-post
 - type: directory
   path: src/pages/blog
   label: Blog posts

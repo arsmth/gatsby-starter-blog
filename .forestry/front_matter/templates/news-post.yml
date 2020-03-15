@@ -23,6 +23,7 @@ fields:
   template_types:
   - text-block
   - quote
+  - image-block
   config:
     min: '1'
     max: 

@@ -30,4 +30,3 @@ fields:
   label: Blocks
 pages:
 - src/pages/news/my-first-news-post-1.md
-- src/pages/news/my-first-news-post.md

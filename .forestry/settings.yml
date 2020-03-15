@@ -11,7 +11,7 @@ sections:
   match: "**/*"
 - type: directory
   path: src/pages/blog
-  label: Blog Posts
+  label: Blog posts
   create: documents
   match: "**/*"
   templates:

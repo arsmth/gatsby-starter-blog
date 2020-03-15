@@ -1,4 +1,8 @@
 ---
 label: Image block
 hide_body: false
-fields: []
+fields:
+- name: gallery_field
+  type: image_gallery
+  config: {}
+  label: Gallery field

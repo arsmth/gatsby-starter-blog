@@ -5,4 +5,9 @@ fields:
 - name: text
   type: field_group
   config: {}
-  label: Text
+  label: Text block
+- name: paragraph
+  type: text
+  config:
+    required: false
+  label: Paragraph

@@ -15,3 +15,5 @@ fields:
   label: date
   config:
     date_format: DD/MM/YYYY
+pages:
+- src/pages/new-blog-post.md

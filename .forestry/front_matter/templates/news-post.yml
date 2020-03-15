@@ -20,7 +20,9 @@ fields:
   default: now
 - name: sections
   type: blocks
-  template_types: []
+  template_types:
+  - text-block
+  - quote
   config:
     min: '1'
     max: 

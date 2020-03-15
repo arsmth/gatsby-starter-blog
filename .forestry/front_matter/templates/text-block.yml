@@ -1,4 +1,8 @@
 ---
 label: Text block
 hide_body: true
-fields: []
+fields:
+- name: text
+  type: field_group
+  config: {}
+  label: Text

@@ -1,6 +1,7 @@
 ---
 label: Blog post
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
@@ -15,5 +16,7 @@ fields:
   label: date
   config:
     date_format: DD/MM/YYYY
-pages:
-- src/pages/new-blog-post.md
+- name: tags
+  type: tag_list
+  default: []
+  label: tags

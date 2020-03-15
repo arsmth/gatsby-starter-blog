@@ -15,5 +15,7 @@ fields:
   label: date
   config:
     date_format: DD/MM/YYYY
-pages:
-- src/pages/new-blog-post.md
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
